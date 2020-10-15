@@ -1,73 +1,54 @@
-# Flexbox Module Challenge
+# Build A Portfolio Website
 
-The module challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.
+With all of the projects you will be working on here at Lambda School, you will need somewhere to house them!  There is no better opportunity to learn and show off your skills than a beautiful portfolio website.  
 
-## User Interface and Git
+You have the ability to write HTML, CSS, and responsive media queries.  You also know how to identify and write responsive units.  It's time to put that knowledge into action by reading someone else's code and adding your own flavor.  You will be building a portfolio website from a template found on [https://html5up.net/](https://html5up.net/).
 
-## Objectives
+## Project Set Up
 
-- implement a CSS reset and understand why it’s important for cross-browser development
-- identify and explain all properties in the box model
-- describe and understand that flexbox is a module
-- demonstrate understanding of flex container properties in flex box
+### Follow these steps to set up and work on your project:
 
-## Introduction
-
-In this challenge you will be building a simple portfolio website based on a wireframe of your choosing using the CSS principles covered today.
-
-Portfolio websites are a great way to show off your work to friends, family, and future employers. As you progress through Lambda School you can update this site with projects you're proud of. Similarly, you can change the style, add a blog page, the possibilites are really endless.
-
-## Instructions
-
-### Task 1: Set Up The Project With Git
-
-Follow these steps to set up and work on your project:
+_ Watch this walk through video:  https://youtu.be/P2Y9W29kcjs
 
 - [ ] Create a forked copy of this project.
+- [ ] Add PM as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
- 
-### Task 2: Minimum Viable Product
+- [ ] Create a new branch on the clone: `git checkout -b <firstName-lastName>`.
+- [ ] Implement the project on the `<firstName-lastName>` branch, committing changes regularly.
+- [ ] Push commits: `git push origin <firstName-lastName>`.
 
-Once your repository is set up, practice what you learned today to create a portfolio site from the wireframe of your choosing. **You may choose any of the three wireframes in the "Wireframe Options" folder above.** Your complete project should look similar to the wireframe you chose, and include all of the following elements:
+### Follow these steps to download your template and start the project:
 
-- [ ]  A navigation bar with `About`, `Projects`, and `Contact` that link to the corresponding pages
-- [ ]  Gallery of projects created with flexbox - you may use random images in place of project screenshots for now with the random image link: https://picsum.photos/ or you may use images that mean something to you
-- [ ]  Information about you in place of the given placeholder
-- [ ]  A `My Projects` button that links to the projects page
-- [ ]  A `Contact Me` button that links to the contact page
-- [ ]  Links to any social media profiles (Instagram, linkedIn, Twitter) into the footer section of your home page
+- [ ] Navigate here: [https://html5up.net/](https://html5up.net/)
+- [ ] You make pick any template you like.  Here are some good choices for a portfolio:
+	- [https://html5up.net/story](https://html5up.net/story)
+	- [https://html5up.net/solid-state](https://html5up.net/solid-state)
+	- [https://html5up.net/miniport](https://html5up.net/miniport)
+	- [https://html5up.net/dimension](https://html5up.net/dimension)
 
-### Task 3: Stretch Goals
+- [ ] Unzip the code and copy the site to your git repository that you just set up
+  * Note that we won't be utilizing the pre processed CSS structure, you can just ignore any folder with LESS or SASS (SCSS) in it.
+- [ ] Work on the MVP requirements listed below
 
-The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
+### Follow these steps for completing your project after your MVP is completed:
 
-- [ ] Make your webpage work at different browser widths, including mobile
-- [ ] Add CSS animations
-- [ ] Design and execute your own wireframe for `About`, `Projects`, and `Contact` pages
-- [ ] Host your website on Netlify.com
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo). **Please don't merge your own pull request**
+- [ ] Add your Project Manager as a Reviewer on the Pull-request
+- [ ] PM then will count the HW as done by merging the branch back into master.
 
-## FAQs
+## MVP Requirements
 
-**What is a wireframe? How do I use one?**
+- [ ] Study the code base and identify both responsive units and where media queries were used.  Take notes on anything that confuses you or interesting things you find.  Share this information in your standup meeting with your group
+- [ ] Customize the template to you 
+	- [ ] Update the title tag match your name
+	- [ ] Update the place holder content throughout the template to your information
+		* Some templates are much larger than others, you don't need to fill in every little div with information, just try to get the site representing you and your work 
+		* You can use sites like [https://www.pexels.com/](https://www.pexels.com/) for free images to fill in place holders
+		* Showcase projects you have worked on by providing some information and links to your git hub projects
+- [ ] Implement proper attribution: Attribution is required under the [creative commons license](https://html5up.net/license) that came with the website files you downloaded.  Be sure to provide attribution somewhere in the site.  The templates should already come with attribution found in most footers but double check to be sure.
+- [ ] Host your website for the world to see. Follow the instructions found here [https://pages.github.com/](https://pages.github.com/).  Once you have hosted your web page, share it for your peers to see.  This is not a small feat!
 
-*Wireframes are used to outline webpage styles, content, and functionality. UX designers will often use wireframes to explain their ideas to web developers. These wireframes, hand drawn or mocked up on software, are a cheap and easy way to iterate over designs. In this assignment you will chose a wireframe like the one below and create the elements with HTML and CSS.*
+## Stretch
 
-![Screen Shot 2020-02-27 at 5.23.20 PM](https://i.imgur.com/b3riE65.png)
-
-## Resources
-
-👋 [Assignment help: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-👀 [Explore a Curated Gallery of Professional Portfolios](https://wpamelia.com/portfolio-websites/#webdev)
-
-🌼 [From Wireframes to Code](https://www.uxmatters.com/mt/archives/2010/12/from-wireframes-to-code-part-i.php)
-
-## Submission format
-
-Follow these steps for completing your project.
-
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-
+- [ ] Study the JavaScript used in your template and see if you can tweak any of the behavior to see how it works
+- [ ] Download another template and see if you can get the CSS preprocessor working on the project
